@@ -21,3 +21,15 @@ git restore . // add全て取消<br>
 + `git reset <ファイル>` // ファイルの取り消し<br>
 
 + `git reset` // addを全て取消<br>
+
++ commitを取り消したい
+
++ HEAD : 現在の場所<br>
+
++ resetはcommitをなかったことにする<br>
+
++ `git reset --soft HEAD^` (stagingの状態までaddはされている状態 HEADをcommit idでも記述可能)<br>
+
++ `git reset --mixed HEAD^` (stagingを飛ばしてコードを書いている状態まで addされていない状態である)<br>
+
++ `git reset --hard HEAD^` (コードを書いている状態もなくす)<br>
