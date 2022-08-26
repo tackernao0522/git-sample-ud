@@ -55,4 +55,4 @@ revertは打ち消しコミットを作る<br>
 プルリク前後に取り消す（マージ前 Compare & pull requestのバーが出てる時）branchごと消える<br>
 `git push --delete origin <branch名>`<br>
 
-プルリク出した後（取り消すとclosedになる）<br>
+プルリク出した後（取り消すとclosedになる コマンドは上記と同じ）<br>
