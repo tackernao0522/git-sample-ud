@@ -49,3 +49,10 @@ git restore . // add全て取消<br>
 resetはコミット毎削除<br>
 
 revertは打ち消しコミットを作る<br>
+
+## pull requestを取り消したい
+
+プルリク前後に取り消す（マージ前 Compare & pull requestのバーが出てる時）<br>
+`git push --delete origin <branch名>`<br>
+
+プルリク出した後（取り消すとclosedになる）<br>
