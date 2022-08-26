@@ -40,6 +40,6 @@ git restore . // add全て取消<br>
 `git revert <commitID>` <br>
 `git push -f` // 取消コミットのプッシュ<br>
 
-+ コミット履歴を残さない場合<br>
++ Local側: コミット履歴を残さない場合<br>
 `git reset --soft <commitID>`<br>
 `git push -f` // 強制プッシュ<br>
